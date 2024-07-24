@@ -1,0 +1,26 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    .google{
+        background-color: #F76856;
+    }
+    .emailbtn{
+        background-color: #30c58d;
+    }
+    
+    .option{
+        display: flex;
+        height: 0px;
+        border: 1px solid var(--light-grey);
+        align-items: center;
+        justify-content: center;
+        margin: 30px 0px;
+    }
+    span{
+        color: var(--grey);
+        z-index: 1;
+        padding: 0px 10px;
+        position: absolute;
+        background-color: var(--white);
+    }
+}

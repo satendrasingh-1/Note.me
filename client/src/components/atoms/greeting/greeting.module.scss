@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    flex-direction: column;
+
+    h2{
+        font-size: 34px;
+        font-weight: var(--fw-light)!important;
+
+        span{
+            font-size: 34px;
+            font-weight: var(--fw-normal);
+        }
+    }
+    p{
+        line-height: 30px;
+        font-size: var(--fs-md);
+        color: #4d4d4d;
+    }
+}

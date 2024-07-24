@@ -1,0 +1,14 @@
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 80px;
+    div{
+        padding-top: 20px;
+        p{
+            padding-top: 10px;
+            color: var(--grey);
+        }
+    }
+}

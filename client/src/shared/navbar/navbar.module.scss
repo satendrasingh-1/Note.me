@@ -1,0 +1,31 @@
+.navbar{
+    display: grid;
+    padding: 0 6rem;
+    padding-top: 2rem;
+    grid-template-columns: auto 1px;
+    gap: 40px;
+
+    .searchBar{
+        display: flex;
+        width: 100%;
+        .field{
+            width:100%;
+            input{
+                border: none;
+            }
+        }
+        svg{
+            height: 24px;
+            width: 24px;
+            color: var(--light-grey);
+            margin-top: 5px;
+        }
+    }
+    .theme{
+        svg{
+            height: 30px;
+            width: 30px;
+            color: var(--light-grey);
+        }
+    }
+}

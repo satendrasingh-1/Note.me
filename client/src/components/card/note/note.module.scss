@@ -1,0 +1,58 @@
+.container{
+    display: grid;
+    width: 100%;
+    grid-template-rows: auto 20px;
+    aspect-ratio: 5/4;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(251, 235, 133, 0.4);
+
+    div{
+        p{
+            font-size: var(--fs-md);
+            font-weight: var(--fw-light);
+            line-height: 25px;
+            display: -webkit-box;
+            -webkit-line-clamp: 5;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            color: #4f4f56;
+
+        }
+        .expanded{
+            // display: -webkit-box;
+            display: block;
+        }
+        .textarea{
+            width: 100%;
+            height: 100%;
+            border: none;
+            outline: none;
+            background-color: transparent;
+            resize: none;
+        }
+        button{
+            color: var(--grey);
+            background-color: transparent;
+            cursor: pointer;
+            line-height: 30px;
+        }
+        
+    }
+
+    footer{
+        display: flex;
+        align-items: center;
+        // div{
+            font-size: var(--fs-sm);
+            color: var(--grey);
+        // }
+
+        .saveBtn{
+            width: auto;
+            background-color: var(--green);
+            padding: 8px;
+
+        }
+    }
+}
