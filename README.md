@@ -17,18 +17,28 @@ You have a basic understanding of JavaScript, HTML, and CSS.
 Installation
 Clone the repository:
 
-git clone https://github.com/yourusername/note.me.git
+git clone https://github.com/satendrasingh-1/Note.me.git
 Navigate to the project directory:
 
-cd note.me
+#For REACT
+cd client
 Install the dependencies:
 
 npm install
 Start the development server:
 
-npm start
+npm start 
 Your app should now be running on http://localhost:3000.
 
+#For Nodejs
+cd server
+Install the dependencies:
+
+npm install
+Start the development server:
+
+npm start 
+Your app should now be running on http://localhost:8080.
 
 Contributing
 Contributions are always welcome! To contribute:
